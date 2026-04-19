@@ -14,11 +14,7 @@ RUN apt update &&\
 
 
 # Copia o restante dos arquivos do projeto
-ADD https://github.com/Danielcrq/Projeto_Final_ADA/requirements.txt .
-ADD https://github.com/Danielcrq/Projeto_Final_ADA/.github/workflows/docker-publish.yml .
-ADD https://github.com/Danielcrq/Projeto_Final_ADA/extract-pipeline.py .
-ADD https://github.com/Danielcrq/Projeto_Final_ADA/extract.py .
-ADD https://github.com/Danielcrq/Projeto_Final_ADA/README.md .
+
 
 USER user01
 
