@@ -4,10 +4,10 @@ import pandas as pd
 import random
 
 # Coloque sua chave API no final para teste
-# http://www.omdbapi.com/?t=Inception&apikey=
+ http://www.omdbapi.com/?i=tt3896198&apikey=d18a535
 
 # Configurações
-API_KEY = os.getenv("OMDB_API_KEY")
+API_KEY = d18a535 # os.getenv("OMDB_API_KEY")
 BASE_URL = "http://www.omdbapi.com/"
 
 # Defina os gêneros que você deseja filtrar
