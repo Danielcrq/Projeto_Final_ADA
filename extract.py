@@ -6,7 +6,7 @@ import random
 # http://www.omdbapi.com/?t=Inception&apikey=
 
 # Configurações
-API_KEY = "SUA_API_KEY"  # Substitua pela sua chave da OMDb
+API_KEY = "d18a535"  # Substitua pela sua chave da OMDb
 BASE_URL = "http://www.omdbapi.com/"
 
 # Defina os gêneros que você deseja filtrar
