@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
     vim \
     && rm -rf /var/lib/apt/lists/*
 
+COPY ./Projeto_Final_ADA ../app
+
 # Define o diretório de trabalho
 WORKDIR /app
 
